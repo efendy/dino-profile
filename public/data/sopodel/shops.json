@@ -5,7 +5,7 @@
     "contact": "-",
     "img_uri": "",
     "is_active": true,
-    "has_promo": false,
+    "has_promo": true,
     "address": {
       "locality": "Food Court",
       "number": "B01"

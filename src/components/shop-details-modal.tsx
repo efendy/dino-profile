@@ -5,16 +5,27 @@ import { PhoneIcon, TagIcon, XMarkIcon } from "@heroicons/react/20/solid";
 
 const ShopDetailModal: React.FC<{ shop: ShopInfo; onClose: () => void }> = ({ shop, onClose }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isPromoOpen, setIsPromoOpen] = useState(false);
+  const [currentMenuIndex, setCurrentMenuIndex] = useState(0);
+  const [currentPromoIndex, setCurrentPromoIndex] = useState(0);
   
   const hasMenu = shop.menu && shop.menu.length > 0;
+  const hasPromo = shop.promo && shop.promo.length > 0;
 
-  const handleNext = () => {
-    setCurrentIndex((prev) => (prev + 1) % shop.menu.length);
+  const handleMenuNext = () => {
+    setCurrentMenuIndex((prev) => (prev + 1) % shop.menu.length);
   };
 
-  const handlePrev = () => {
-    setCurrentIndex((prev) => (prev - 1 + shop.menu.length) % shop.menu.length);
+  const handlePromoNext = () => {
+    setCurrentPromoIndex((prev) => (prev + 1) % shop.promo.length);
+  };
+
+  const handleMenuPrev = () => {
+    setCurrentMenuIndex((prev) => (prev - 1 + shop.menu.length) % shop.menu.length);
+  };
+
+  const handlePromoPrev = () => {
+    setCurrentPromoIndex((prev) => (prev - 1 + shop.promo.length) % shop.promo.length);
   };
 
   return (
@@ -56,6 +67,16 @@ const ShopDetailModal: React.FC<{ shop: ShopInfo; onClose: () => void }> = ({ sh
           </button>
         )}
 
+        {/* Open Promo Button (only if promo exists) */}
+        {hasPromo && (
+          <button
+            onClick={() => setIsPromoOpen(true)}
+            className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-700"
+          >
+            Lihat Menu
+          </button>
+        )}
+
         {/* Menu Modal */}
         {isMenuOpen && (
           <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black bg-opacity-75">
@@ -64,7 +85,7 @@ const ShopDetailModal: React.FC<{ shop: ShopInfo; onClose: () => void }> = ({ sh
                 <>
                   {/* Previous Button */}
                   <button 
-                    onClick={handlePrev} 
+                    onClick={handleMenuPrev} 
                     className="absolute left-0 p-2 bg-gray-800 bg-opacity-50 text-white rounded-full hover:bg-opacity-75"
                   >
                     ◀
@@ -72,14 +93,14 @@ const ShopDetailModal: React.FC<{ shop: ShopInfo; onClose: () => void }> = ({ sh
 
                   {/* Menu Image */}
                   <img 
-                    src={`/img/shops/sopodel/${formatPathSegment(shop.address.locality)}/${shop.address.number.toLowerCase()}/${shop.menu[currentIndex]}`} 
+                    src={`/img/shops/sopodel/${formatPathSegment(shop.address.locality)}/${shop.address.number.toLowerCase()}/${shop.menu[currentMenuIndex]}`} 
                     alt="Menu item" 
                     className="w-full h-full object-contain rounded-md"
                   />
 
                   {/* Next Button */}
                   <button 
-                    onClick={handleNext} 
+                    onClick={handleMenuNext} 
                     className="absolute right-0 p-2 bg-gray-800 bg-opacity-50 text-white rounded-full hover:bg-opacity-75"
                   >
                     ▶
@@ -91,6 +112,48 @@ const ShopDetailModal: React.FC<{ shop: ShopInfo; onClose: () => void }> = ({ sh
             </div>
             <button 
               onClick={() => setIsMenuOpen(false)} 
+              className="absolute z-60 top-4 right-4 text-white hover:text-gray-300"
+            >
+              <XMarkIcon className="w-8 h-8" />
+            </button>
+          </div>
+        )}
+
+        {/* Promo Modal */}
+        {isPromoOpen && (
+          <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black bg-opacity-75">
+            <div className="relative flex items-center justify-center w-full max-w-lg">
+              {hasPromo ? (
+                <>
+                  {/* Previous Button */}
+                  <button 
+                    onClick={handlePromoPrev} 
+                    className="absolute left-0 p-2 bg-gray-800 bg-opacity-50 text-white rounded-full hover:bg-opacity-75"
+                  >
+                    ◀
+                  </button>
+
+                  {/* Menu Image */}
+                  <img 
+                    src={`/img/shops/sopodel/${formatPathSegment(shop.address.locality)}/${shop.address.number.toLowerCase()}/${shop.promo[currentPromoIndex]}`} 
+                    alt="Menu item" 
+                    className="w-full h-full object-contain rounded-md"
+                  />
+
+                  {/* Next Button */}
+                  <button 
+                    onClick={handlePromoNext} 
+                    className="absolute right-0 p-2 bg-gray-800 bg-opacity-50 text-white rounded-full hover:bg-opacity-75"
+                  >
+                    ▶
+                  </button>
+                </>
+              ) : (
+                <p className="text-white text-lg">Tidak ada promo</p>
+              )}
+            </div>
+            <button 
+              onClick={() => setIsPromoOpen(false)} 
               className="absolute z-60 top-4 right-4 text-white hover:text-gray-300"
             >
               <XMarkIcon className="w-8 h-8" />
