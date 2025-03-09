@@ -1,0 +1,1147 @@
+[
+  {
+    "uid": "1001",
+    "name": "Pasta & Bento",
+    "contact": "-",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Food Court",
+      "number": "B01"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["pasta", "spaghetti", "bento", "rice"],
+    "menu": [],
+    "promo": []  
+  },
+  {
+    "uid": "1002",
+    "name": "White Garlic",
+    "contact": "82126999900",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Food Court",
+      "number": "B02"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": [
+      "korean",
+      "rice",
+      "odeng",
+      "bibimbap"
+    ],
+    "menu": ["menu.webp"],
+    "promo": []  
+  },
+  {
+    "uid": "1003",
+    "name": "SummerRice",
+    "contact": "85711093729",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Food Court",
+      "number": "B03"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": [
+      "japanese",
+      "katsu",
+      "rice"
+    ],
+    "menu": ["menu01.webp","menu02.webp"],
+    "promo": []  
+  },
+  {
+    "uid": "1004",
+    "name": "Chik Chik Steak",
+    "contact": "85656289707",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Food Court",
+      "number": "B04"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": [
+      "pepper steak",
+      "chicken steak",
+      "bento"
+    ],
+    "menu": ["menu.webp"],
+    "promo": []  
+  },
+  {
+    "uid": "1005",
+    "name": "Maciak",
+    "contact": "82397125089",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Food Court",
+      "number": "B05"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["indonesian", "padang", "rice", "nasi"],
+    "menu": ["menu01.webp"],
+    "promo": []  
+  },
+  {
+    "uid": "1006",
+    "name": "Sate Paskasarjana",
+    "contact": "81213893302",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Food Court",
+      "number": "B06"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["indonesian", "sate", "satay"],
+    "menu": ["menu01.webp"],
+    "promo": []  
+  },
+  {
+    "uid": "1007",
+    "name": "Wong Kito",
+    "contact": "81315448795",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Food Court",
+      "number": "B07"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["indonesian", "pempek"],
+    "menu": ["menu01.webp"],
+    "promo": []  
+  },
+  {
+    "uid": "1008",
+    "name": "Pawon Pakde",
+    "contact": "85715653634",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Food Court",
+      "number": "B08"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["indonesian", "fried rice", "bawan", "nasi goreng"],
+    "menu": ["menu01.webp"],
+    "promo": []  
+  },
+  {
+    "uid": "1009",
+    "name": "Bakso Nyonya",
+    "contact": "81904148806",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Food Court",
+      "number": "B09"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["indonesian", "bakso", "pangsit", "rice", "nasi"],
+    "menu": ["menu01.webp","menu02.webp"],
+    "promo": []  
+  },
+  {
+    "uid": "1010",
+    "name": "Warung Nusantara",
+    "contact": "85880547192",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Food Court",
+      "number": "B10"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["indonesian", "rice", "nasi"],
+    "menu": [],
+    "promo": []  
+  },
+  {
+    "uid": "1011",
+    "name": "Bakmi Ale",
+    "contact": "8118884418",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Food Court",
+      "number": "B11"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["indonesian", "noodle", "bakmi ayam", "fried rice", "nasi goreng"],
+    "menu": ["menu01.webp","menu02.webp"],
+    "promo": []  
+  },
+  {
+    "uid": "1012",
+    "name": "Serba Cobek",
+    "contact": "82164219260",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Food Court",
+      "number": "B12"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["indonesian", "ayam bakar", "soto"],
+    "menu": ["menu01.webp"],
+    "promo": []  
+  },
+  {
+    "uid": "1013",
+    "name": "Kedai Sukaria",
+    "contact": "811950711",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Food Court",
+      "number": "B13"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["chinese", "general tsao", "mongolian", "rice", "nasi"],
+    "menu": ["menu01.webp","menu02.webp","menu03.webp"],
+    "promo": []  
+  },
+  {
+    "uid": "1014",
+    "name": "Happy Tummy",
+    "contact": "81310510725",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Food Court",
+      "number": "B14"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["chinese", "salted egg", "kungpao", "rice"],
+    "menu": ["menu01.webp"],
+    "promo": []  
+  },
+  {
+    "uid": "1015",
+    "name": "Jikasei Bowl",
+    "contact": "85885946402",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Food Court",
+      "number": "B15"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["japanese", "karage", "bento", "katsu"],
+    "menu": ["menu01.webp","menu02.webp"],
+    "promo": []  
+  },
+  {
+    "uid": "1016",
+    "name": "Depot Maknyusss",
+    "contact": "88213239137",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Food Court",
+      "number": "B16"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["indonesian", "rawon", "bebek", "rice", "nasi"],
+    "menu": ["menu01.webp"],
+    "promo": []  
+  },
+  {
+    "uid": "1017",
+    "name": "Sari Tebu Petani",
+    "contact": "81295062289",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Food Court",
+      "number": "B17"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["beverage", "minuman", "tebu", "juice", "minuman", "jus"],
+    "menu": ["menu01.webp"],
+    "promo": []  
+  },
+  {
+    "uid": "1018",
+    "name": "Dapur Betawi",
+    "contact": "87864085419",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Food Court",
+      "number": "B18"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["indonesian", "soto", "rice", "nasi"],
+    "menu": ["menu01.webp"],
+    "promo": []  
+  },
+  {
+    "uid": "1019",
+    "name": "Gudeg Mercon",
+    "contact": "87793532449",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Food Court",
+      "number": "B19"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["indonesian", "gudeg", "rice", "nasi"],
+    "menu": ["menu01.webp"],
+    "promo": []  
+  },
+  {
+    "uid": "1020",
+    "name": "Ngedagging",
+    "contact": "87742381539",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Food Court",
+      "number": "B20"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["korean", "wings", "beef", "gochujjang", "rice", "nasi"],
+    "menu": ["menu01.webp"],
+    "promo": []  
+  },
+  {
+    "uid": "1021",
+    "name": "Ayam Bakar Mbah Bowo",
+    "contact": "81770733684",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Food Court",
+      "number": "B21"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["indonesian", "ayam bakar", "rice", "nasi"],
+    "menu": ["menu01.webp","menu02.webp","menu03.webp","menu04.webp"],
+    "promo": []  
+  },
+  {
+    "uid": "1022",
+    "name": "Bogana May-May",
+    "contact": "8111241183",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Food Court",
+      "number": "B22"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["indonesian", "bali", "kremes", "bogana", "rice"],
+    "menu": ["menu01.webp"],
+    "promo": []  
+  },
+  {
+    "uid": "1023",
+    "name": "VACANT",
+    "contact": "",
+    "img_uri": "",
+    "is_active": false,
+    "has_promo": false,
+    "address": {
+      "locality": "Food Court",
+      "number": "B23"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": [],
+    "menu": [],
+    "promo": []  
+  },
+  {
+    "uid": "1024",
+    "name": "Cakra Buana",
+    "contact": "82325759687",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Food Court",
+      "number": "B24 (Kiosk)"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["snacks", "risoles", "batagor"],
+    "menu": [],
+    "promo": []  
+  },
+  {
+    "uid": "1025",
+    "name": "Panna Snack",
+    "contact": "81387875909",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Food Court",
+      "number": "B25 (Kiosk)"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["snacks", "es potong", "mango sticky rice", "bakso goreng"],
+    "menu": ["menu01.webp"],
+    "promo": []  
+  },
+  {
+    "uid": "1026",
+    "name": "Cashier & Drinks",
+    "contact": "",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Food Court",
+      "number": "B26 (Kiosk)"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["minuman", "kasir", "cashier"],
+    "menu": [],
+    "promo": []  
+  },
+  {
+    "uid": "1027",
+    "name": "",
+    "contact": "",
+    "img_uri": "",
+    "is_active": false,
+    "has_promo": false,
+    "address": {
+      "locality": "Food Court",
+      "number": "B27"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": [],
+    "menu": [],
+    "promo": []  
+  },
+  {
+    "uid": "2001",
+    "name": "The Cuisine Lounge",
+    "contact": "85932553823",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Lobby",
+      "number": "L01"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["western", "steak", "salmon", "fried rice", "pasta", "kwetiauw", "nasi goreng"],
+    "menu": [
+      "menu01.webp",
+      "menu02.webp",
+      "menu03.webp",
+      "menu04.webp"
+    ],
+    "promo": []  
+  },
+  {
+    "uid": "2002",
+    "name": "Kopi Kenangan",
+    "contact": "8179875900",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Lobby",
+      "number": "L02"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["coffee", "beverage", "pastries", "kopi", "minuman"],
+    "menu": [
+      "menu01.webp"
+    ],
+    "promo": []  
+  },
+  {
+    "uid": "2003",
+    "name": "",
+    "contact": "",
+    "img_uri": "",
+    "is_active": false,
+    "has_promo": false,
+    "address": {
+      "locality": "Lobby",
+      "number": "L03"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": [],
+    "menu": [],
+    "promo": []  
+  },
+  {
+    "uid": "2004",
+    "name": "Wangbi Garden",
+    "contact": "81388943373",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Lobby",
+      "number": "L04"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["japanese", "sushi", "dimsum", "bento", "rice", "nasi", "jepang"],
+    "menu": [
+      "menu01.webp",
+      "menu02.webp",
+      "menu03.webp",
+      "menu04.webp",
+      "menu05.webp",
+      "menu06.webp",
+      "menu07.webp",
+      "menu08.webp",
+      "menu09.webp",
+      "menu10.webp",
+      "menu11.webp"
+    ],
+    "promo": []  
+  },
+  {
+    "uid": "2005",
+    "name": "Tatsuya Teppanyaki",
+    "contact": "82122336990",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Lobby",
+      "number": "L05"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["japanese", "teppanyaki", "jepang"],
+    "menu": [
+      "menu01.webp"
+    ],
+    "promo": []  
+  },
+  {
+    "uid": "2006",
+    "name": "No. 11 / Ekiben",
+    "contact": "82122346810",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Lobby",
+      "number": "L06 - L07"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["japanese", "sushi", "donburi", "soba", "rice", "jepang", "nasi"],
+    "menu": [],
+    "promo": []  
+  },
+  {
+    "uid": "2007",
+    "name": "Ekiben",
+    "contact": "",
+    "img_uri": "",
+    "is_active": false,
+    "has_promo": false,
+    "address": {
+      "locality": "Lobby",
+      "number": "L07"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["japanese", "sushi", "donburi", "soba", "rice", "jepang", "nasi"],
+    "menu": [
+      "menu01.webp"
+    ],
+    "promo": []  
+  },
+  {
+    "uid": "2008",
+    "name": "5 to 9 Coffee",
+    "contact": "81210917488",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Lobby",
+      "number": "L08"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["coffee", "western", "indonesian", "toast", "tongseng", "rice", "kopi", "nasi", "minuman"],
+    "menu": [
+      "menu01.webp",
+      "menu02.webp",
+      "menu03.webp",
+      "menu04.webp"
+    ],
+    "promo": []  
+  },
+  {
+    "uid": "2009",
+    "name": "Mama Roz Cold Press",
+    "contact": "81119975688",
+    "img_uri": "",
+    "is_active": true,
+    "has_promo": false,
+    "address": {
+      "locality": "Lobby",
+      "number": "L09 (Kiosk)"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": ["beverage", "juice", "minuman", "jus"],
+    "menu": [],
+    "promo": []  
+  },
+  {
+    "uid": "2010",
+    "name": "Hayo Optic",
+    "contact": "",
+    "img_uri": "",
+    "is_active": false,
+    "has_promo": false,
+    "address": {
+      "locality": "Lobby",
+      "number": "L10 (Kiosk)"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": [],
+    "menu": [],
+    "promo": []  
+  },
+  {
+    "uid": "2011",
+    "name": "Parfum",
+    "contact": "",
+    "img_uri": "",
+    "is_active": false,
+    "has_promo": false,
+    "address": {
+      "locality": "Lobby",
+      "number": "L11 (Kiosk)"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": [],
+    "menu": [],
+    "promo": []  
+  },
+  {
+    "uid": "2012",
+    "name": "Baju",
+    "contact": "",
+    "img_uri": "",
+    "is_active": false,
+    "has_promo": false,
+    "address": {
+      "locality": "Lobby",
+      "number": "L12 (Kiosk)"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": [],
+    "menu": [],
+    "promo": []  
+  },
+  {
+    "uid": "2013",
+    "name": "Kartika Bakery",
+    "contact": "",
+    "img_uri": "",
+    "is_active": false,
+    "has_promo": false,
+    "address": {
+      "locality": "Lobby",
+      "number": "L13 (Kiosk)"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": [],
+    "menu": [],
+    "promo": []  
+  },
+  {
+    "uid": "2014",
+    "name": "Royal Dim Sum",
+    "contact": "",
+    "img_uri": "",
+    "is_active": false,
+    "has_promo": false,
+    "address": {
+      "locality": "Lobby",
+      "number": "L14 (Kiosk)"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": [],
+    "menu": [],
+    "promo": []  
+  },
+  {
+    "uid": "2015",
+    "name": "Bloederhood Bakery",
+    "contact": "",
+    "img_uri": "",
+    "is_active": false,
+    "has_promo": false,
+    "address": {
+      "locality": "Lobby",
+      "number": "L15 (Kiosk)"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": [],
+    "menu": [],
+    "promo": []  
+  },
+  {
+    "uid": "2016",
+    "name": "espessia Es Potong",
+    "contact": "",
+    "img_uri": "",
+    "is_active": false,
+    "has_promo": false,
+    "address": {
+      "locality": "Lobby",
+      "number": "L16 (Kiosk)"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": [],
+    "menu": [],
+    "promo": []  
+  },
+  {
+    "uid": "2017",
+    "name": "Tumbler",
+    "contact": "",
+    "img_uri": "",
+    "is_active": false,
+    "has_promo": false,
+    "address": {
+      "locality": "Lobby",
+      "number": "L17 (Kiosk)"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": [],
+    "menu": [],
+    "promo": []  
+  },
+  {
+    "uid": "2018",
+    "name": "nainalenin Collection",
+    "contact": "",
+    "img_uri": "",
+    "is_active": false,
+    "has_promo": false,
+    "address": {
+      "locality": "Lobby",
+      "number": "L18 (Kiosk)"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": [],
+    "menu": [],
+    "promo": []  
+  },
+  {
+    "uid": "2019",
+    "name": "Hello Beans",
+    "contact": "",
+    "img_uri": "",
+    "is_active": false,
+    "has_promo": false,
+    "address": {
+      "locality": "Lobby",
+      "number": "L19 (Kiosk)"
+    },
+    "operation_info": [
+      "Tutup",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "0900 – 1500",
+      "Tutup"
+    ],
+    "tags": [],
+    "menu": [],
+    "promo": []  
+  }
+]
