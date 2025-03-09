@@ -1,39 +1,30 @@
 import AnnouncementFeeds from '@/components/list-feeds';
 import { Feed } from '@/data/feed';
 import { MagnifyingGlassIcon } from '@heroicons/react/20/solid';
-import { GetStaticProps } from 'next';
 import Form from 'next/form'
 import Router from 'next/router';
+import { useEffect, useState } from 'react';
 
-const feeds: Feed[] = [
-  {
-    id: "1",
-    type: "news",
-    img_uri: "/images/news1.jpg",
-    message: "Breaking News: New features released in our latest update!",
-    time: "2025-03-01T08:30:00Z",
-  },
-  {
-    id: "2",
-    type: "alert",
-    img_uri: "/images/alert1.jpg",
-    message: "System maintenance scheduled for March 3rd from 1 AM to 4 AM UTC.",
-    time: "2025-03-01T10:15:00Z",
-  },
-  {
-    id: "3",
-    type: "information",
-    img_uri: "/images/info1.jpg",
-    message: "Did you know? You can now customize your dashboard layout.",
-    time: "2025-03-01T12:00:00Z",
-  }
-]
+const ShopPage: React.FC = () => {
+  const [feeds, setFeeds] = useState<Feed[]>([]);
+  const [loading, setLoading] = useState(true);
+  const sid = 'sopodel';
 
-interface Props {
-  sid: string
-}
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('/data/sopodel/feeds.json');
+        const data = await response.json();
+        setFeeds(data);
+      } catch (error) {
+        console.error('Failed to fetch feeds:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
 
-const ShopPage: React.FC<Props> = (props) => {
+    fetchData();
+  }, []);
 
   return (
     <div>
@@ -43,7 +34,7 @@ const ShopPage: React.FC<Props> = (props) => {
         </a>
       </div>
       <div className="bg-white px-6 py-24 sm:py-32 lg:px-8 h-screen justify-between">
-        <Form action={`/${props.sid}/s`} replace={false} scroll={false}>
+        <Form action={`/${sid}/s`} replace={false} scroll={false}>
           <div className="mx-auto max-w-2xl text-center">
             <img className="mx-auto w-24 sm:w-32" alt="logo" src="/img/sopodel-logo.webp"/>
             <h2 className="mt-2 text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">Makan apa ya?</h2>
@@ -69,7 +60,7 @@ const ShopPage: React.FC<Props> = (props) => {
             </button>
             <button type="button"
               className="bg-gray-500 hover:bg-gray-700 text-white px-3.5 py-2 rounded mt-4 w-full md:w-1/3 mx-1"
-              onClick={() => Router.push(`/${props.sid}/s`)}
+              onClick={() => Router.push(`/${sid}/s`)}
             >
               Tampilkan Semua
             </button>
@@ -77,10 +68,14 @@ const ShopPage: React.FC<Props> = (props) => {
         </Form>
         <div className="mb-auto">&nbsp;</div>
         <div className="mx-auto max-w-2xl px-6 py-6">
-          <AnnouncementFeeds activity={feeds} />
+          {loading ? (
+            <p className="text-center text-gray-500">Loading feeds...</p>
+          ) : (
+            <AnnouncementFeeds activity={feeds.slice(0, 3)} />
+          )}
         </div>
         <div className="mx-auto max-w-2xl px-6">
-          <a href={`/${props.sid}/feeds`} className="text-sm/7 text-blue-500">
+          <a href={`/${sid}/feeds`} className="text-sm/7 text-blue-500">
             Tampilkan lebih banyak
           </a>
         </div>
@@ -88,23 +83,6 @@ const ShopPage: React.FC<Props> = (props) => {
       </div>
     </div>
   );
-}
-
-export const getStaticProps: GetStaticProps = async () => {
-  const SID = "sopodel"
-
-  // const snap = await db.collection("shops").doc(SID).get()
-  // if (!snap.exists) {
-  //   throw Error("Document not found");
-  // }
-  // const siteData = snap.data();
-  
-  return {
-    props: {
-      sid: SID
-      
-    },
-  }
-}
+};
 
 export default ShopPage
