@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ShopInfo } from "@/data/shops";
 import { formatPathSegment } from "@/utils/string";
-import { PhoneIcon, TagIcon, XMarkIcon } from "@heroicons/react/20/solid";
+import { DevicePhoneMobileIcon, TagIcon, XMarkIcon } from "@heroicons/react/20/solid";
 
 const ShopDetailModal: React.FC<{ shop: ShopInfo; onClose: () => void }> = ({ shop, onClose }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -40,7 +40,7 @@ const ShopDetailModal: React.FC<{ shop: ShopInfo; onClose: () => void }> = ({ sh
           <img 
             alt={shop.name} 
             src={`/img/shops/sopodel/${formatPathSegment(shop.address.locality)}/${shop.address.number.toLowerCase()}/preview.webp`} 
-            className="w-full max-w-[800px] h-64 object-cover mx-auto"
+            className="w-full max-w-[800px] h-96 object-cover mx-auto"
             onError={(e) => {
               const target = e.target as HTMLImageElement;
               target.onerror = null;
@@ -49,9 +49,13 @@ const ShopDetailModal: React.FC<{ shop: ShopInfo; onClose: () => void }> = ({ sh
           />
         </div>
 
-        <div className="flex w-full mt-2 gap-x-2">
-          <PhoneIcon className="w-6 h-6" /><span className="font-bold">Nomor Kontak:</span><span>{shop.contact}</span>
-        </div>
+        {shop.contact != "" && shop.contact != "-" && (
+          <div className="flex w-full mt-2 gap-x-2">
+            <DevicePhoneMobileIcon className="w-6 h-6" /><span className="font-bold">Whatsapp:</span>
+            <a href={`https://wa.me/62${shop.contact}`} className="text-blue-700 underline">{shop.contact}</a>
+          </div>
+        )}
+        
 
         <div className="flex w-full mt-2 gap-x-2">
           <TagIcon className="w-6 h-6" /><span className="font-bold">Tags:</span><span>{shop.tags.join(", ")}</span>
